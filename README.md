@@ -1,3 +1,8 @@
+<h1 align="center">LocalMail</h1>
+
+![Recipient page screenshot](https://github.com/tabatii/localmail/blob/main/assets/recipient.png)
+![Message page screenshot](https://github.com/tabatii/localmail/blob/main/assets/message.png)
+
 <p align="center">
 <a href="https://packagist.org/packages/tabatii/localmail"><img src="https://img.shields.io/packagist/dt/tabatii/localmail" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/tabatii/localmail"><img src="https://img.shields.io/packagist/v/tabatii/localmail" alt="Latest Stable Version"></a>
@@ -5,11 +10,9 @@
 </p>
 
 
-## About LocalMail
+## About
 
 LocalMail is a laravel database mailer for local development.
-![Recipient page screenshot](https://github.com/tabatii/localmail/blob/main/assets/recipient.png)
-![Message page screenshot](https://github.com/tabatii/localmail/blob/main/assets/message.png)
 
 
 ## Installation
