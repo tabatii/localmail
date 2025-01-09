@@ -16,9 +16,13 @@ class Fake extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct(
+        public ?string $title = null,
+        public ?string $body = null,
+    )
     {
-        //
+        $this->title = $this->title ?: 'Fake Email';
+        $this->body = $this->body ?: fake()->text(300);
     }
 
     /**

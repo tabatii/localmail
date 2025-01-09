@@ -1,6 +1,6 @@
 <x-mail::message>
-# Fake Email
+# {{ $title }}
 <x-mail::panel>
-{{ fake()->realText(300) }}
+{{ $body }}
 </x-mail::panel>
 </x-mail::message>
