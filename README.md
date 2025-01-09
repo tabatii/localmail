@@ -1,7 +1,6 @@
 ## Introduction
 
 LocalMail is a laravel database mailer for local development.
-When you send an email using LocalMail, the content of this email will be saved to the database.
 
 
 ## Installation
@@ -43,8 +42,11 @@ php artisan vendor:publish --tag="localmail-config"
 # Usage
 
 You can visit the LocalMail dashboard to preview every email you sent.
+
 The LocalMail dashboard is available at the `/localmail` route named `localmail.dashboard`.
+
 You can customize this route path in the LocalMail configuration file by changing the `routes.prefix` key.
+
 ```
 'routes' => [
     'prefix' => 'localmail',
