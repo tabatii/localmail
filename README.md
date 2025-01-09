@@ -1,6 +1,6 @@
 ## Introduction
 
-LocalMail is a laravel database mailer for local development.
+LocalMail is a laravel database mailer for local development.\
 When you send an email using LocalMail, the content of this email will be saved to the database.
 
 
