@@ -8,6 +8,8 @@
 ## About LocalMail
 
 LocalMail is a laravel database mailer for local development.
+![preview](https://github.com/tabatii/localmail/blob/main/assets/recipient.png)
+![preview](https://github.com/tabatii/localmail/blob/main/assets/message.png)
 
 
 ## Installation
