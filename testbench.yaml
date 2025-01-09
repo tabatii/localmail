@@ -1,0 +1,20 @@
+laravel: '@testbench'
+
+providers:
+  - Workbench\App\Providers\WorkbenchServiceProvider
+
+migrations:
+  - workbench/database/migrations
+
+env:
+  - APP_URL=http://localhost:8000
+  - MAIL_MAILER=localmail
+
+workbench:
+  start: '/localmail'
+  install: true
+  welcome: false
+  build:
+    - asset-publish
+    - create-sqlite-db
+    - migrate-fresh
