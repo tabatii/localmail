@@ -51,7 +51,7 @@ php artisan vendor:publish --tag="localmail-config"
 ```
 
 
-# Usage
+## Usage
 
 You can visit the LocalMail dashboard to preview every email you sent.\
 The LocalMail dashboard is available at the `/localmail` route named `localmail.dashboard`.\
