@@ -41,20 +41,17 @@ php artisan vendor:publish --tag="localmail-config"
 
 # Usage
 
-You can visit the LocalMail dashboard to preview every email you sent.
-
-The LocalMail dashboard is available at the `/localmail` route named `localmail.dashboard`.
-
-You can customize this route path in the LocalMail configuration file by changing the `routes.prefix` key.
-
+You can visit the LocalMail dashboard to preview every email you sent.\
+The LocalMail dashboard is available at the `/localmail` route named `localmail.dashboard`.\
+You can customize this route path in the LocalMail configuration file by changing the `routes.prefix` key.\
 ```
 'routes' => [
     'prefix' => 'localmail',
 ],
 ```
 
-You can also protect the LocalMail dashboard by adding a middleware to the `routes.middleware` key.
-Keep in mind that the `web` middleware is required for the LocalMail dashboard to work properly.
+You can also protect the LocalMail dashboard by adding a middleware to the `routes.middleware` key.\
+Keep in mind that the `web` middleware is required for the LocalMail dashboard to work properly.\
 ```
 'routes' => [
     'middleware' => ['web', 'auth:admin'],
