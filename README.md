@@ -1,22 +1,22 @@
 ## Introduction
 
-LocalMail is a laravel database mailer for local development.\
+LocalMail is a laravel database mailer for local development.
 When you send an email using LocalMail, the content of this email will be saved to the database.
 
 
 ## Installation
 
-You can install the package via composer
+You can install the package via composer:
 ```
 composer require tabatii/localmail
 ```
 
-Next, you should run the package migrations
+Next, you should run the package migrations:
 ```
 php artisan migrate
 ```
 
-Also, add the package mailer to your `mail.php` configuration file
+Also, add the package mailer to your `mail.php` configuration file:
 ```
 'mailers' => [
 
@@ -29,12 +29,12 @@ Also, add the package mailer to your `mail.php` configuration file
 ],
 ```
 
-Finally, change the `MAIL_MAILER` environment variable to `localmail` in your `.env` file
+Finally, change the `MAIL_MAILER` environment variable to `localmail` in your `.env` file:
 ```
 MAIL_MAILER=localmail
 ```
 
-Optionally, you can publish the package configuration file using
+Optionally, you can publish the package configuration file using:
 ```
 php artisan vendor:publish --tag="localmail-config"
 ```
