@@ -3,8 +3,6 @@
 namespace Tabatii\LocalMail\Livewire;
 
 use Tabatii\LocalMail\Models\Message as MessageModel;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Locked;
 use Livewire\Attributes\Layout;
